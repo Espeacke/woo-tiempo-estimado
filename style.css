@@ -1,0 +1,277 @@
+.pignose-calendar-unit-range + .pignose-calendar-unit-active:not(.pignose-calendar-unit-wte) a {
+                    background: none;
+                    color: #2d2a1fbd !important;
+                    border-radius: 0;
+                    box-shadow: none !important;
+                    background: #fff5e2 !important;
+                    border: 1px solid white;
+                    padding: 0;
+                    margin: 0;
+                }
+                .wte-date-estimation {
+                    width: 100%;
+                    font-size: 14px;
+                    color: #858c90;
+                }
+
+                .wte-status-bar {
+                    width: 100%;
+                }
+
+                .clearfix:after {
+                   content: \" \"; /* Older browser do not support empty content */
+                   visibility: hidden;
+                   display: block;
+                   height: 0;
+                   clear: both;
+                }
+
+                .wte-time-values span {
+                    display: block;
+                    font-size: 19px;
+                    line-height: 29px;
+                    color: #116B6B !important;
+                }
+
+                .wte-date {
+                    font-family: Roboto, sans-serif !important;
+                    white-space: normal !important;
+                }
+
+                .wte-date-estimation b {
+                    color: #444c50;
+                }
+
+                .wte-status-bar-line {
+                    width: 100%;
+                    height: 6px;
+                    background: #dadee0;
+                    border-radius: 6px;
+                    position: absolute;
+                    top: 7px;
+                }
+
+                .wte-status-bar {
+                    /*display: flex;
+                    align-items: center;*/
+                    position: relative;
+                    margin: 50px 0 40px;
+                }
+
+                .wte-s-steps {
+                    display: flex;
+                    align-items: baseline;
+                    position: relative;
+                    z-index: 10;
+                    width: 100%;
+                }
+
+                .wte-s-step {
+                    width: 100%;
+                    position: relative;
+                }
+
+                .wte-s-step:last-child {
+                    width: 1% !important;
+                    min-width: initial !important;
+                }
+
+                .wte-s-step-icon {
+                    width: 20px;
+                    height: 20px;
+                    position: relative;
+                    background: white;
+                    bottom: 0;
+                    border-radius: 50%;
+                    border: 3px solid #cacfd2;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+
+                .wte-s-step-icon svg {
+                    width: 9px;
+                    height: 9px;
+                }
+
+                .wte-s-step-icon svg path {
+                    fill: white;
+                }
+
+                .wte-s-step-label {
+                    text-transform: capitalize;
+                    color: #767d84;
+                    margin-top: 15px;
+                    font-size: 15px;
+                    line-height: 18px;
+                    padding: 0 10px;
+                }
+
+                .wte-s-step-label,
+                .wte-s-step-description {
+                    padding: 0 10px;
+                    display: none;
+                }
+
+                .--wte-completed .wte-percentage {
+                    color: #116B6B;
+                }
+
+                .--wte-completed .wte-s-step-icon {
+                    border-color: white;
+                    background: #116B6B;
+                    border-width: 0px;
+                }
+
+                .--wte-completed .wte-s-step-label {
+                    color: #116B6B;
+                    font-weight: 600;
+                }
+
+                .--wte-completed .wte-status-bar-line {
+                    background: #116B6B;
+                }
+
+                .--wte-active .wte-s-step-label {
+                    display: block;
+                    color: #116B6B;
+                    font-weight: 600;   
+                }
+
+                .--wte-active svg {
+                    width: 11px;
+                    height: 11px;
+                }
+
+                .--wte-active svg path {
+                    fill: #116B6B;
+                }
+
+                .--wte-active .wte-status-bar-line {
+                    top: 10px;
+                }
+
+                .--wte-active .wte-s-step-icon {
+                    border-color: #116B6B;
+                    width: 26px;
+                    height: 26px;
+                    border-width: 2px;
+                }
+
+                .--wte-active .wte-s-step-label {
+                    color: #353c40;
+                    font-weight: 600;
+                }
+
+                .wte-s-step-description {
+                    font-size: 14px;
+                    padding: 0 10px;
+                    color: #9a9ea0;
+                    line-height: 21px;
+                    margin-top: 9px;
+                }
+
+                .--wte-active .wte-s-step-description {
+                    color: #343a3e;
+                    display: block;
+                }
+    
+                .wte-percentage {
+                    display: none;
+                    position: absolute;
+                    top: -31px;
+                    font-size: 16px;
+                    color: #dadee0;
+                    font-weight: 600;
+                }
+
+                .wte-s-step.--wte-active .wte-percentage {
+                    display: block;
+                }
+
+                .--wte-active .wte-percentage {
+                    color: #116B6B;
+                    font-size: 17px;
+                }
+
+                .wte-s-step.--wte-active {
+                    min-width: 40%;
+                }
+
+                .bbcode_code .woocommerce {
+                    white-space: normal;
+                    padding: 20px;
+                }
+
+                .bbcode_code .wte-s-steps {
+                    max-width: 96%;
+                }
+
+                @media (max-width: 1199px) {
+                    .pignose-calendar {
+                        width: auto;
+                    }
+
+                    .wte-status-bar {
+                        margin-bottom: 15px;
+                        margin-top: 30px;
+                    }
+                    .wte-s-steps {
+                        display: flex;
+                        align-items: baseline;
+                        flex-wrap: wrap;
+                    }                        
+
+                    .wte-s-step {
+                        width: 100%;
+                        min-height: 48px;
+                        position: relative;
+                    }
+
+                    .wte-s-step:last-child .wte-status-bar-line {
+                        display: none;
+                    }
+
+                    .wte-status-bar-line {
+                        width: 6px;
+                        height: 100%;
+                        border-radius: 6px;
+                        position: absolute;
+                        top: 0;
+                        left: 7px;
+                    }
+
+                    .wte-s-step-icon {
+                        float: left;
+                    }
+
+                    .wte-s-step-label, .wte-s-step-description {
+                        display: none;
+                        padding: 0 5% 0 80px !important;
+                    }
+
+                    .wte-s-step-label {
+                        margin-top: 0;
+                    }
+
+                    .wte-s-step-description {
+                        margin-top: 9px;
+                        margin-bottom: 30px;
+                    }
+
+                    .wte-s-step:last-child {
+                        width: 100%;
+                        height: 1px;
+                    }
+
+                    .wte-percentage {
+                        position: absolute;
+                        top: 0;
+                        left: 31px;
+                        font-size: 16px;
+                    }
+
+                    .--wte-active .wte-percentage {
+                        left: 34px;
+                    }
